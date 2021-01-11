@@ -1,0 +1,44 @@
+<cpacs>
+  <toolspecific>
+    <SimplifiedMissionModel>
+      <Inputs>
+        <MainPhasesDuration mapType="vector"/>
+        <NumberEngines/>
+      </Inputs>
+    </SimplifiedMissionModel>
+    <SimplifiedPerformanceModel>
+      <Inputs>
+        <AltitudeCruise/>
+      </Inputs>
+      <Outputs>
+        <SingleEngineNetThrust mapType="vector"/>
+      </Outputs>
+    </SimplifiedPerformanceModel>
+    <SimplifiedEngineModel>
+      <Inputs>
+        <SFCclean mapType="vector"/>
+      </Inputs>
+      <Outputs>
+        <SFCnew mapType="vector"/>
+      </Outputs>
+    </SimplifiedEngineModel>
+  </toolspecific>
+  <vehicles>
+    <aircraft>
+      <model uID="model">
+        <reference>
+          <area/>
+        </reference>
+        <analyses>
+          <massBreakdown>
+            <designMasses>
+              <mTOM>
+                <mass/>
+              </mTOM>
+            </designMasses>
+          </massBreakdown>
+        </analyses>
+      </model>
+    </aircraft>
+  </vehicles>
+</cpacs>

@@ -1,0 +1,18 @@
+<cpacs>
+  <toolspecific>
+    <SimplifiedPerformanceModel>
+      <Outputs>
+        <SingleEngineNetThrust mapType="vector"/>
+      </Outputs>
+    </SimplifiedPerformanceModel>
+  </toolspecific>
+  <vehicles>
+    <engines>
+      <engine uID="engine">
+        <analysis>
+          <thrust00/>
+        </analysis>
+      </engine>
+    </engines>
+  </vehicles>
+</cpacs>

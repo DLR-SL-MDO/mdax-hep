@@ -1,0 +1,187 @@
+<cpacs>
+  <vehicles>
+    <aircraft>
+      <model uID="model">
+        <analyses>
+          <massBreakdown>
+            <designMasses>
+              <mTOM>
+                <mass/>
+              </mTOM>
+            </designMasses>
+            <payload>
+              <massDescription>
+                <mass/>
+              </massDescription>
+            </payload>
+            <mOEM>
+              <mOperatorItems>
+                <massDescription>
+                  <mass/>
+                </massDescription>
+              </mOperatorItems>
+              <massDescription>
+                <mass/>
+              </massDescription>
+              <mEM>
+                <mStructure>
+                  <mWingsStructure>
+                    <mWingStructure>
+                      <massDescription uID="wing_mass">
+                        <mass/>
+                      </massDescription>
+                    </mWingStructure>
+                  </mWingsStructure>
+                  <mFuselagesStructure>
+                    <mFuselageStructure>
+                      <massDescription>
+                        <mass/>
+                      </massDescription>
+                    </mFuselageStructure>
+                  </mFuselagesStructure>
+                  <mLandingGears>
+                    <massDescription>
+                      <mass/>
+                    </massDescription>
+                  </mLandingGears>
+                  <mPylons>
+                    <massDescription uID="pylon_mass">
+                      <mass/>
+                    </massDescription>
+                  </mPylons>
+                  <massDescription>
+                    <mass/>
+                  </massDescription>
+                </mStructure>
+                <mSystems>
+                  <massDescription>
+                    <mass/>
+                  </massDescription>
+                </mSystems>
+                <mFurnishing>
+                  <massDescription>
+                    <mass/>
+                  </massDescription>
+                </mFurnishing>
+                <massDescription>
+                  <mass/>
+                </massDescription>
+              </mEM>
+            </mOEM>
+          </massBreakdown>
+          <aeroPerformanceMap>
+            <machNumber mapType="vector"/>
+            <reynoldsNumber mapType="vector"/>
+            <angleOfYaw mapType="vector"/>
+            <angleOfAttack mapType="vector"/>
+            <cdT mapType="array"/>
+            <clT mapType="array"/>
+            <cfx mapType="array"/>
+            <cfy mapType="array"/>
+            <cfz mapType="array"/>
+          </aeroPerformanceMap>
+        </analyses>
+        <reference>
+          <area/>
+        </reference>
+      </model>
+    </aircraft>
+    <engines>
+      <engine uID="engine">
+        <analysis>
+          <thrust00/>
+          <bpr00/>
+        </analysis>
+        <geometry>
+          <diameter/>
+        </geometry>
+      </engine>
+    </engines>
+  </vehicles>
+  <toolspecific>
+    <SimplifiedPerformanceModel>
+      <Inputs>
+        <TOFL/>
+        <Cl_takeoff/>
+        <V_climb/>
+        <VerticalSpeed/>
+        <AltitudeClimb/>
+        <AltitudeCruise/>
+        <SpeedCruise/>
+        <NumberEngines/>
+      </Inputs>
+      <Outputs>
+        <SingleEngineNetThrust mapType="vector"/>
+      </Outputs>
+    </SimplifiedPerformanceModel>
+    <technologies>
+      <laminarWing/>
+    </technologies>
+    <SimplifiedEngineModel>
+      <Inputs>
+        <SelectedPhases mapType="vector"/>
+        <NumberEngines/>
+        <SFCclean mapType="vector"/>
+        <AircraftSpeed mapType="vector"/>
+        <AircraftAltitude mapType="vector"/>
+        <n_f_lpt/>
+        <EngineSpecificThrust/>
+        <TotAirEnthalpyIncrease/>
+      </Inputs>
+      <Outputs>
+        <SFCnew mapType="vector"/>
+        <EngineDryMass/>
+      </Outputs>
+    </SimplifiedEngineModel>
+    <ASTRID>
+      <L1>
+        <Global>
+          <powerOffTake>
+            <maxPower>
+              <mechanical_power>
+                <mechanical_power_hydr mapType="vector"/>
+                <mechanical_power_electr mapType="vector"/>
+              </mechanical_power>
+              <pneumatic>
+                <pneumatic_airflow mapType="vector"/>
+              </pneumatic>
+            </maxPower>
+          </powerOffTake>
+        </Global>
+      </L1>
+    </ASTRID>
+    <SimplifiedMissionModel>
+      <Inputs>
+        <MainPhasesDuration mapType="vector"/>
+        <NumberEngines/>
+        <PercentageReserves/>
+      </Inputs>
+      <Outputs>
+        <MissionFuelPhases mapType="vector"/>
+        <MissionFuel/>
+        <FuelReserves/>
+        <TotalFuel/>
+      </Outputs>
+    </SimplifiedMissionModel>
+    <HybridTool>
+      <Outputs>
+        <mHybridSystem/>
+        <ICEpower/>
+      </Outputs>
+    </HybridTool>
+  </toolspecific>
+  <header>
+    <name/>
+    <version/>
+    <cpacsVersion/>
+    <creator/>
+    <description/>
+    <timestamp/>
+    <updates>
+      <update>
+        <modification/>
+        <creator/>
+      </update>
+    </updates>
+  </header>
+</cpacs>

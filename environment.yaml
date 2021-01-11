@@ -1,0 +1,9 @@
+name: hep
+channels:
+  - dlr-sc
+  - defaults
+dependencies:
+  - python=3.6
+  - numpy
+  - tixi
+  - tigl

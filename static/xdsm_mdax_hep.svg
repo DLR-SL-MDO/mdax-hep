@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Georgia, Times New Roman, serif" font-size="10pt" font-weight="light" viewBox="0 0 790.481445 310.000000">
+  <line stroke="#999999" x1="47.98046875" y1="70.0" x2="593.57275390625" y2="70.0" stroke-width="8px" stroke-linecap="square"/>
+  <line stroke="#999999" x1="173.07177734375" y1="21.666666666666664" x2="173.07177734375" y2="283.3333333333333" stroke-width="8px" stroke-linecap="square"/>
+  <line stroke="#999999" x1="47.98046875" y1="123.33333333333331" x2="722.943359375" y2="123.33333333333331" stroke-width="8px" stroke-linecap="square"/>
+  <line stroke="#999999" x1="309.30810546875" y1="21.666666666666664" x2="309.30810546875" y2="123.33333333333331" stroke-width="8px" stroke-linecap="square"/>
+  <line stroke="#999999" x1="47.98046875" y1="176.66666666666666" x2="722.943359375" y2="176.66666666666666" stroke-width="8px" stroke-linecap="square"/>
+  <line stroke="#999999" x1="450.0869140625" y1="21.666666666666664" x2="450.0869140625" y2="283.3333333333333" stroke-width="8px" stroke-linecap="square"/>
+  <line stroke="#999999" x1="47.98046875" y1="229.99999999999997" x2="722.943359375" y2="229.99999999999997" stroke-width="8px" stroke-linecap="square"/>
+  <line stroke="#999999" x1="593.57275390625" y1="21.666666666666664" x2="593.57275390625" y2="229.99999999999997" stroke-width="8px" stroke-linecap="square"/>
+  <line stroke="#999999" x1="47.98046875" y1="283.3333333333333" x2="722.943359375" y2="283.3333333333333" stroke-width="8px" stroke-linecap="square"/>
+  <line stroke="#999999" x1="722.943359375" y1="21.666666666666664" x2="722.943359375" y2="283.3333333333333" stroke-width="8px" stroke-linecap="square"/>
+  <g transform="translate(173.071777, 21.666667)">
+    <g>
+      <rect fill="#ffffff" stroke="black" width="27.938477" height="23.333333" transform="skewX(-10) translate(-13.969238, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">19</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(309.308105, 21.666667)">
+    <g>
+      <rect fill="#ffffff" stroke="black" width="27.835938" height="23.333333" transform="skewX(-10) translate(-13.917969, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">12</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(450.086914, 21.666667)">
+    <g>
+      <rect fill="#ffffff" stroke="black" width="21.396484" height="23.333333" transform="skewX(-10) translate(-10.698242, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">5</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(593.572754, 21.666667)">
+    <g>
+      <rect fill="#ffffff" stroke="black" width="21.724609" height="23.333333" transform="skewX(-10) translate(-10.862305, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">3</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(722.943359, 21.666667)">
+    <g>
+      <rect fill="#ffffff" stroke="black" width="28.362305" height="23.333333" transform="skewX(-10) translate(-14.181152, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">18</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(47.980469, 70.000000)">
+    <g>
+      <rect fill="#ffffff" stroke="black" width="68.837891" height="23.333333" transform="skewX(-10) translate(-34.418945, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">thrust00</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(47.980469, 123.333333)">
+    <g>
+      <rect fill="#ffffff" stroke="black" width="69.630859" height="23.333333" transform="skewX(-10) translate(-34.815430, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">diameter</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(47.980469, 176.666667)">
+    <g>
+      <rect fill="#ffffff" stroke="black" width="75.960938" height="23.333333" transform="skewX(-10) translate(-37.980469, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">ICEpower</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(47.980469, 230.000000)">
+    <g>
+      <rect fill="#ffffff" stroke="black" width="21.820312" height="23.333333" transform="skewX(-10) translate(-10.910156, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">2</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(47.980469, 283.333333)">
+    <g>
+      <rect fill="#ffffff" stroke="black" width="45.486328" height="23.333333" transform="skewX(-10) translate(-22.743164, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">mass</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(450.086914, 70.000000)">
+    <g>
+      <rect fill="#e6e6e6" stroke="black" width="20.015625" height="23.333333" transform="skewX(-10) translate(-10.007812, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">1</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(722.943359, 230.000000)">
+    <g>
+      <rect fill="#e6e6e6" stroke="black" width="21.820312" height="23.333333" transform="skewX(-10) translate(-10.910156, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">2</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(722.943359, 123.333333)">
+    <g>
+      <rect fill="#e6e6e6" stroke="black" width="112.936523" height="23.333333" transform="skewX(-10) translate(-56.468262, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">EngineDryMass</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(450.086914, 283.333333)">
+    <g>
+      <rect fill="#e6e6e6" stroke="black" width="45.486328" height="23.333333" transform="skewX(-10) translate(-22.743164, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">mass</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(309.308105, 70.000000)">
+    <g>
+      <rect fill="#e6e6e6" stroke="black" width="20.015625" height="23.333333" transform="skewX(-10) translate(-10.007812, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">1</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(173.071777, 283.333333)">
+    <g>
+      <rect fill="#e6e6e6" stroke="black" width="45.486328" height="23.333333" transform="skewX(-10) translate(-22.743164, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">mass</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(450.086914, 123.333333)">
+    <g>
+      <rect fill="#e6e6e6" stroke="black" width="64.592773" height="23.333333" transform="skewX(-10) translate(-32.296387, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">SFCnew</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(593.572754, 176.666667)">
+    <g>
+      <rect fill="#e6e6e6" stroke="black" width="64.592773" height="23.333333" transform="skewX(-10) translate(-32.296387, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">SFCnew</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(593.572754, 70.000000)">
+    <g>
+      <rect fill="#e6e6e6" stroke="black" width="20.015625" height="23.333333" transform="skewX(-10) translate(-10.007812, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">1</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(722.943359, 176.666667)">
+    <g>
+      <rect fill="#e6e6e6" stroke="black" width="115.076172" height="23.333333" transform="skewX(-10) translate(-57.538086, -11.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">mHybridSystem</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(173.071777, 70.000000)">
+    <g>
+      <rect fill="#ccffcc" stroke="black" width="134.221680" height="33.333333" transform="translate(-67.110840, -16.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">PerformanceBlock</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(309.308105, 123.333333)">
+    <g>
+      <rect fill="#ccffcc" stroke="black" width="98.250977" height="33.333333" transform="translate(-49.125488, -16.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">EngineBlock</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(450.086914, 176.666667)">
+    <g>
+      <rect fill="#ccffcc" stroke="black" width="143.306641" height="33.333333" transform="translate(-71.653320, -16.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">HybridSystemBlock</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(593.572754, 230.000000)">
+    <g>
+      <rect fill="#ccffcc" stroke="black" width="103.665039" height="33.333333" transform="translate(-51.832520, -16.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">MissionBlock</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(722.943359, 283.333333)">
+    <g>
+      <rect fill="#ccffcc" stroke="black" width="99.515625" height="33.333333" transform="translate(-49.757812, -16.666667)" stroke-width="0.5"/>
+      <g transform="translate(0.000000, 4.000000)">
+        <text text-anchor="middle">MassesBlock</text>
+      </g>
+    </g>
+  </g>
+</svg>

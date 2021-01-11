@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cpacs>
+  <vehicles>
+    <engines>
+      <engine uID="engine">
+        <analysis>
+          <bpr00>8.0</bpr00>
+        </analysis>
+        <geometry>
+          <diameter>0.730701</diameter>
+        </geometry>
+      </engine>
+    </engines>
+  </vehicles>
+  <toolspecific>
+    <SimplifiedPerformanceModel>
+      <Outputs>
+        <SingleEngineNetThrust mapType="vector">0</SingleEngineNetThrust>
+      </Outputs>
+    </SimplifiedPerformanceModel>
+    <ASTRID>
+      <L1>
+        <Global>
+          <powerOffTake>
+            <maxPower>
+              <pneumatic>
+                <pneumatic_airflow mapType="vector">1.03206;1.03206;0.991524;0.991524;0.985627;0.95017;0.923698;0.923698;1.66511;0.826412;1.66511;1.66511;1.66511;0.78302;0.94818;0.985627;0.985627;0.985627;1.03206;1.72172</pneumatic_airflow>
+              </pneumatic>
+              <mechanical_power>
+                <mechanical_power_hydr mapType="vector">0;0;20467.6;25625.1;17501.8;17501.8;20118;22659.3;17501.8;17501.8;17501.8;22659.3;17501.8;17501.8;17501.8;21414.1;8123.36;2965.83;0;22659.3</mechanical_power_hydr>
+                <mechanical_power_electr mapType="vector">11884.5;11884.5;16664.3;16664.3;18406.4;18406.3;18406.3;18406.3;33279.2;50124.6;31685.9;29598.4;29598.4;29598.4;16856.9;16856.9;16856.9;17041.8;13918.2;32283</mechanical_power_electr>
+              </mechanical_power>
+            </maxPower>
+          </powerOffTake>
+        </Global>
+      </L1>
+    </ASTRID>
+    <SimplifiedEngineModel>
+      <Inputs>
+        <SelectedPhases mapType="vector">5;9;10;11;15</SelectedPhases>
+        <NumberEngines>2</NumberEngines>
+        <SFCclean mapType="vector">0.3405;0.5304;0.4881;0.4844;0.4987</SFCclean>
+        <!--[lb/lb/h]-->
+        <AircraftSpeed mapType="vector">85;240;230;195;68</AircraftSpeed>
+        <!--[m/s]-->
+        <AircraftAltitude mapType="vector">0;5000;11000;4000;0</AircraftAltitude>
+        <!--[m]-->
+        <n_f_lpt>0.79</n_f_lpt>
+        <!-- Fan effinciency multiplied per Low pressure turbine efficiency (assumed value) -->
+        <EngineSpecificThrust>175</EngineSpecificThrust>
+        <!-- (assumed value) -->
+        <TotAirEnthalpyIncrease>855</TotAirEnthalpyIncrease>
+        <!-- (assumed value) -->
+      </Inputs>
+      <Outputs>
+        <SFCnew mapType="vector">nan;nan;nan;nan;nan</SFCnew>
+        <EngineDryMass>267.633153</EngineDryMass>
+      </Outputs>
+    </SimplifiedEngineModel>
+  </toolspecific>
+</cpacs>

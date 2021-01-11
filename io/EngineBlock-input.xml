@@ -1,0 +1,47 @@
+<cpacs>
+  <toolspecific>
+    <SimplifiedEngineModel>
+      <Inputs>
+        <SelectedPhases mapType="vector"/>
+        <NumberEngines/>
+        <SFCclean mapType="vector"/>
+        <AircraftSpeed mapType="vector"/>
+        <AircraftAltitude mapType="vector"/>
+        <n_f_lpt/>
+        <EngineSpecificThrust/>
+        <TotAirEnthalpyIncrease/>
+      </Inputs>
+    </SimplifiedEngineModel>
+    <ASTRID>
+      <L1>
+        <Global>
+          <powerOffTake>
+            <maxPower>
+              <mechanical_power>
+                <mechanical_power_hydr mapType="vector"/>
+                <mechanical_power_electr mapType="vector"/>
+              </mechanical_power>
+              <pneumatic>
+                <pneumatic_airflow mapType="vector"/>
+              </pneumatic>
+            </maxPower>
+          </powerOffTake>
+        </Global>
+      </L1>
+    </ASTRID>
+    <SimplifiedPerformanceModel>
+      <Outputs>
+        <SingleEngineNetThrust mapType="vector"/>
+      </Outputs>
+    </SimplifiedPerformanceModel>
+  </toolspecific>
+  <vehicles>
+    <engines>
+      <engine uID="engine">
+        <analysis>
+          <bpr00/>
+        </analysis>
+      </engine>
+    </engines>
+  </vehicles>
+</cpacs>

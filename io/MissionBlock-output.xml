@@ -1,0 +1,12 @@
+<cpacs>
+  <toolspecific>
+    <SimplifiedMissionModel>
+      <Outputs>
+        <MissionFuelPhases mapType="vector"/>
+        <MissionFuel/>
+        <FuelReserves/>
+        <TotalFuel/>
+      </Outputs>
+    </SimplifiedMissionModel>
+  </toolspecific>
+</cpacs>

@@ -1,0 +1,48 @@
+<cpacs>
+  <vehicles>
+    <aircraft>
+      <model uID="model">
+        <analyses>
+          <massBreakdown>
+            <designMasses>
+              <mTOM>
+                <mass/>
+              </mTOM>
+            </designMasses>
+          </massBreakdown>
+          <aeroPerformanceMap>
+            <machNumber mapType="vector"/>
+            <reynoldsNumber mapType="vector"/>
+            <angleOfYaw mapType="vector"/>
+            <angleOfAttack mapType="vector"/>
+            <cdT mapType="array"/>
+            <clT mapType="array"/>
+            <cfx mapType="array"/>
+            <cfy mapType="array"/>
+            <cfz mapType="array"/>
+          </aeroPerformanceMap>
+        </analyses>
+        <reference>
+          <area/>
+        </reference>
+      </model>
+    </aircraft>
+  </vehicles>
+  <toolspecific>
+    <SimplifiedPerformanceModel>
+      <Inputs>
+        <TOFL/>
+        <Cl_takeoff/>
+        <V_climb/>
+        <VerticalSpeed/>
+        <AltitudeClimb/>
+        <AltitudeCruise/>
+        <SpeedCruise/>
+        <NumberEngines/>
+      </Inputs>
+    </SimplifiedPerformanceModel>
+    <technologies>
+      <laminarWing/>
+    </technologies>
+  </toolspecific>
+</cpacs>

@@ -1,0 +1,21 @@
+<cpacs>
+  <toolspecific>
+    <SimplifiedMissionModel>
+      <Inputs>
+        <MainPhasesDuration mapType="vector"/>
+        <NumberEngines/>
+        <PercentageReserves/>
+      </Inputs>
+    </SimplifiedMissionModel>
+    <SimplifiedEngineModel>
+      <Outputs>
+        <SFCnew mapType="vector"/>
+      </Outputs>
+    </SimplifiedEngineModel>
+    <SimplifiedPerformanceModel>
+      <Outputs>
+        <SingleEngineNetThrust mapType="vector"/>
+      </Outputs>
+    </SimplifiedPerformanceModel>
+  </toolspecific>
+</cpacs>

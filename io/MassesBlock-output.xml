@@ -1,0 +1,27 @@
+<cpacs>
+  <vehicles>
+    <aircraft>
+      <model uID="model">
+        <analyses>
+          <massBreakdown>
+            <designMasses>
+              <mTOM>
+                <mass/>
+              </mTOM>
+            </designMasses>
+            <mOEM>
+              <massDescription>
+                <mass/>
+              </massDescription>
+              <mEM>
+                <massDescription>
+                  <mass/>
+                </massDescription>
+              </mEM>
+            </mOEM>
+          </massBreakdown>
+        </analyses>
+      </model>
+    </aircraft>
+  </vehicles>
+</cpacs>

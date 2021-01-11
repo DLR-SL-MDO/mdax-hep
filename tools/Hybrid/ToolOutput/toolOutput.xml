@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cpacs>
+  <header>
+    <name>AGILE_DC-1_Reference_L0_MDA</name>
+    <version>1.0</version>
+    <cpacsVersion>2.3</cpacsVersion>
+    <creator>AGILE WP2 L0</creator>
+    <description>AGILE D2.5 - Reference Aircraft Design Challenge L0</description>
+    <timestamp>2016-03-20T20:51:00</timestamp>
+    <updates>
+      <update>
+        <modification>Initial Synthesis</modification>
+        <creator>TUD</creator>
+      </update>
+      <update>
+        <modification>CIAM Reference Engine included</modification>
+        <creator>DLR</creator>
+      </update>
+      <update>
+        <modification>POLITO Systems Mass analysis included</modification>
+        <creator>DLR</creator>
+      </update>
+      <update>
+        <modification>UNINA High Lift design included</modification>
+        <creator>DLR</creator>
+      </update>
+      <update>
+        <modification>Structural components included</modification>
+        <creator>DLR</creator>
+      </update>
+      <update>
+        <modification>DLR updated synthesis L0</modification>
+        <creator>DLR</creator>
+      </update>
+    </updates>
+  </header>
+  <vehicles>
+    <aircraft>
+      <model uID="agile_v13_modelID">
+        <name>Agile-DC1-v13</name>
+        <description>Agile DC1 v13: 2:2 abreast 9180kg, right fuselage dims, medium BPR engine (6), max payload+range mission, LFL 1400 and TOFL 1500m, increased CLmax values</description>
+        <analyses>
+          <massBreakdown>
+            <mOEM>
+              <mEM>
+                <mFurnishing>
+                  <massDescription>
+                    <mass>3681.755235</mass>
+                    <location>
+                      <y>0.0</y>
+                      <x>0.0</x>
+                      <z>0.0</z>
+                    </location>
+                    <massInertia>
+                      <Jzz>0.0</Jzz>
+                      <Jxx>0.0</Jxx>
+                      <Jyy>0.0</Jyy>
+                    </massInertia>
+                    <name>mFurnishing1</name>
+                  </massDescription>
+                </mFurnishing>
+                <mStructure>
+                  <mLandingGears>
+                    <mLandingGear>
+                      <massDescription uID="mainGear_Mass">
+                        <parentUID isLink="True">mainGear</parentUID>
+                        <mass>1113.546186</mass>
+                        <location>
+                          <y>0.0</y>
+                          <x>0.0</x>
+                          <z>0.0</z>
+                        </location>
+                        <massInertia>
+                          <Jzz>0.0</Jzz>
+                          <Jxx>0.0</Jxx>
+                          <Jyy>0.0</Jyy>
+                        </massInertia>
+                        <name>mLandingGear1</name>
+                      </massDescription>
+                    </mLandingGear>
+                    <mLandingGear>
+                      <massDescription uID="noseGear_mass">
+                        <parentUID isLink="True">noseGear</parentUID>
+                        <mass>278.386547</mass>
+                        <location>
+                          <y>0.0</y>
+                          <x>0.0</x>
+                          <z>0.0</z>
+                        </location>
+                        <massInertia>
+                          <Jzz>0.0</Jzz>
+                          <Jxx>0.0</Jxx>
+                          <Jyy>0.0</Jyy>
+                        </massInertia>
+                        <name>mLandingGear2</name>
+                      </massDescription>
+                    </mLandingGear>
+                    <massDescription>
+                      <location>
+                        <y>0.0</y>
+                        <x>0.0</x>
+                        <z>0.0</z>
+                      </location>
+                      <massInertia>
+                        <Jzz>0.0</Jzz>
+                        <Jxx>0.0</Jxx>
+                        <Jyy>0.0</Jyy>
+                      </massInertia>
+                      <mass>1925.92611686</mass>
+                      <name>mLandingGears1</name>
+                    </massDescription>
+                  </mLandingGears>
+                </mStructure>
+                <mSystems>
+                  <massDescription>
+                    <mass>3153.406684</mass>
+                    <location>
+                      <x>11.921104</x>
+                      <y>0.0</y>
+                      <z>0.0</z>
+                    </location>
+                    <massInertia>
+                      <Jzz>0.0</Jzz>
+                      <Jxx>0.0</Jxx>
+                      <Jyy>0.0</Jyy>
+                    </massInertia>
+                    <name>mSystems1</name>
+                  </massDescription>
+                  <mInstrumentPanel>
+                    <massDescription>
+                      <mass>184.993182</mass>
+                    </massDescription>
+                  </mInstrumentPanel>
+                  <mAutomaticFlightSystem>
+                    <massDescription>
+                      <mass>92.496591</mass>
+                    </massDescription>
+                  </mAutomaticFlightSystem>
+                  <mCommunication>
+                    <massDescription>
+                      <mass>123.328788</mass>
+                    </massDescription>
+                  </mCommunication>
+                  <mIntegratedModularAvionics>
+                    <massDescription>
+                      <mass>61.664394</mass>
+                    </massDescription>
+                  </mIntegratedModularAvionics>
+                  <mNavigation>
+                    <massDescription>
+                      <mass>154.160985</mass>
+                    </massDescription>
+                  </mNavigation>
+                  <mAuxillaryPowerUnit>
+                    <massDescription>
+                      <mass>157.660504</mass>
+                    </massDescription>
+                  </mAuxillaryPowerUnit>
+                  <mHydraulicGeneration>
+                    <massDescription>
+                      <mass>0.000000</mass>
+                    </massDescription>
+                  </mHydraulicGeneration>
+                  <mHydraulicDistribution>
+                    <massDescription>
+                      <mass>0.000000</mass>
+                    </massDescription>
+                  </mHydraulicDistribution>
+                  <mAirConditioning>
+                    <massDescription>
+                      <mass>484.194258</mass>
+                    </massDescription>
+                  </mAirConditioning>
+                  <mDeIcing>
+                    <massDescription>
+                      <mass>136.567611</mass>
+                    </massDescription>
+                  </mDeIcing>
+                  <mFlightControls>
+                    <massDescription>
+                      <mass>742.990963</mass>
+                    </massDescription>
+                  </mFlightControls>
+                  <mElectricalGeneration>
+                    <massDescription>
+                      <mass>157.233262</mass>
+                    </massDescription>
+                  </mElectricalGeneration>
+                  <mElectricalDistribution>
+                    <massDescription>
+                      <mass>628.933048</mass>
+                    </massDescription>
+                  </mElectricalDistribution>
+                </mSystems>
+              </mEM>
+            </mOEM>
+          </massBreakdown>
+        </analyses>
+        <global>
+          <machCruise>0.78</machCruise>
+          <paxSeats>90.0</paxSeats>
+          <airportCompatability>
+            <wingSpan>
+              <required>0.0</required>
+              <actual>28.1</actual>
+            </wingSpan>
+            <wheelTrackWidth>
+              <required>0.0</required>
+              <actual>0.0</actual>
+            </wheelTrackWidth>
+            <runwayLoading>
+              <required>0.0</required>
+              <actual>0.0</actual>
+            </runwayLoading>
+            <takeOffFieldLength>
+              <required>0.0</required>
+              <actual>1500</actual>
+            </takeOffFieldLength>
+            <landingFieldLength>
+              <required>0.0</required>
+              <actual>1500</actual>
+            </landingFieldLength>
+          </airportCompatability>
+          <performanceTargets>
+            <cruiseMach>
+              <required>0.0</required>
+              <actual>0.78</actual>
+            </cruiseMach>
+            <maximumOperatingVelocity>
+              <required>0.0</required>
+              <actual>0.0</actual>
+            </maximumOperatingVelocity>
+            <maximumOperatingMach>
+              <required>0.0</required>
+              <actual>0.0</actual>
+            </maximumOperatingMach>
+            <initialCruiseAltitude>
+              <required>0.0</required>
+              <actual>0.0</actual>
+            </initialCruiseAltitude>
+            <timeToClimb>
+              <required>0.0</required>
+              <actual>0.0</actual>
+            </timeToClimb>
+            <maxOperatingAltitude>
+              <required>0.0</required>
+              <actual>0.0</actual>
+            </maxOperatingAltitude>
+            <approachSpeed>
+              <required>0.0</required>
+              <actual>66.8</actual>
+            </approachSpeed>
+          </performanceTargets>
+          <payload>
+            <paxSeats>
+              <required>0.0</required>
+              <actual>0</actual>
+            </paxSeats>
+            <cargoCapacity>
+              <required>0.0</required>
+              <actual>0.0</actual>
+            </cargoCapacity>
+          </payload>
+        </global>
+      </model>
+    </aircraft>
+  </vehicles>
+  <toolspecific>
+    <ASTRID>
+      <tool>
+        <name>ASTRID L0, ASTRID L1</name>
+        <version>version 1.0, version 2.2</version>
+      </tool>
+      <L0>
+        <avionicSystemMass>0</avionicSystemMass>
+        <fcsSystemMass>0</fcsSystemMass>
+        <landingGearSystemMass>0</landingGearSystemMass>
+        <airConditioningSystemMass>0</airConditioningSystemMass>
+        <fuelSystemMass>0</fuelSystemMass>
+        <engineSystemMass>0</engineSystemMass>
+        <furnishingSystemMass>0</furnishingSystemMass>
+        <hydraulicSystemMass>0</hydraulicSystemMass>
+        <electricSystemMass>0</electricSystemMass>
+        <totalSystemsMass>0</totalSystemsMass>
+      </L0>
+      <L1>
+        <Global>
+          <mass>8227.094652</mass>
+          <mSystems>3153.406684</mSystems>
+          <mLandingGear>1391.932733</mLandingGear>
+          <mFurnishing>3681.755235</mFurnishing>
+          <powerOffTake>
+            <maxPower>
+              <mechanical_power>
+                <mechanical_power_hydr mapType="vector">0</mechanical_power_hydr>
+                <mechanical_power_electr mapType="vector">54140.9;36808.8;84941.6;82125.1;81042.5;81127;83512.2;81227.8;158120;197466;158151;112693;133480;133480;105795;108384;51692.5;52324.3;37499.2;160669</mechanical_power_electr>
+              </mechanical_power>
+              <pneumatic>
+                <pneumatic_airflow mapType="vector">0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0</pneumatic_airflow>
+                <pneumatic_pressure>600000.000000</pneumatic_pressure>
+              </pneumatic>
+            </maxPower>
+            <meanPower>
+              <mechanical_power>
+                <mechanical_power_hydr mapType="vector">0</mechanical_power_hydr>
+                <mechanical_power_electr mapType="vector">36808.8;36808.8;68689.4;69876.4;65028.7;63027;65369.9;63085.5;77646.9;77494.9;79679.7;79534.2;108658;110660;87652.9;89825.4;49452.4;50084.2;37499.2;82197.2</mechanical_power_electr>
+              </mechanical_power>
+              <pneumatic>
+                <pneumatic_airflow mapType="vector">0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0</pneumatic_airflow>
+                <pneumatic_pressure>600000.000000</pneumatic_pressure>
+              </pneumatic>
+            </meanPower>
+          </powerOffTake>
+        </Global>
+        <Systems>
+          <AvionicSystem>
+            <mass>616.643940</mass>
+            <power>
+              <electric_power mapType="vector">4000;4000;7900;5600;8620;8620;8620;8620;8620;8380;8620;8620;8620;8620;8620;8620;8620;8620;4000;9612</electric_power>
+            </power>
+          </AvionicSystem>
+          <FlightControlSystem>
+            <mass>742.990963</mass>
+            <power>
+              <electric_power mapType="vector">0;0;16013.8;16060.6;16013.8;16013.8;16013.8;16060.6;16013.8;16013.8;16013.8;16060.6;36156.9;36156.9;36156.9;36156.9;46.8327;0;0;16060.6</electric_power>
+              <hydraulic_power mapType="vector">0</hydraulic_power>
+            </power>
+          </FlightControlSystem>
+          <LandingGearSystem>
+            <mass>1391.932733</mass>
+            <power_retraction>
+              <electric_power mapType="vector">0;0;0;0;0;0;1874.3;0;0;0;0;0;0;0;0;0;0;0;0;0</electric_power>
+              <hydraulic_power mapType="vector">0</hydraulic_power>
+            </power_retraction>
+            <power_braking>
+              <electric_power mapType="vector">0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2172.54;0;0;0;0</electric_power>
+              <hydraulic_power mapType="vector">0</hydraulic_power>
+            </power_braking>
+            <power_steering>
+              <electric_power mapType="vector">0;0;2240.1;2240.1;0;0;0;0;0;0;0;0;0;0;0;0;2240.1;2240.1;0;0</electric_power>
+              <hydraulic_power mapType="vector">0</hydraulic_power>
+            </power_steering>
+          </LandingGearSystem>
+          <AnticeSystem>
+            <mass/>
+            <power_wings>
+              <electric_power mapType="vector">0</electric_power>
+              <pneumatic_airflow mapType="vector">0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0</pneumatic_airflow>
+            </power_wings>
+            <power_small_users>
+              <electric_power mapType="vector">0;0;10800;10800;10800;10800;10800;10800;10800;0;10800;10800;10800;10800;10800;10800;0;0;0;10800</electric_power>
+            </power_small_users>
+          </AnticeSystem>
+          <EnvironmentalControlSystem>
+            <mass>620.761869</mass>
+            <power>
+              <pneumatic_airflow mapType="vector">0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0</pneumatic_airflow>
+              <electric_power mapType="vector">34312.7;20447.1;20447.1;20447.1;20447.1;20514.7;20548.5;20548.5;70413.2;102012;70413.2;34162.9;30696.7;30696.7;20548.5;20447.1;20447.1;20447.1;20447.1;70413.2</electric_power>
+            </power>
+          </EnvironmentalControlSystem>
+          <FuelSystem>
+            <mass>229.183099</mass>
+            <power>
+              <electric_power mapType="vector">0;0;552.302;552.302;953.167;953.162;953.156;953.151;649.085;567.452;673.89;510.729;510.729;510.728;510.728;510.728;0;552.298;552.298;649.064</electric_power>
+            </power>
+          </FuelSystem>
+          <AuxiliaryPowerSystem>
+            <mass>157.660504</mass>
+          </AuxiliaryPowerSystem>
+          <FurnishingSystem>
+            <mass>3681.76</mass>
+          </FurnishingSystem>
+          <PneumaticSystem>
+            <mass/>
+            <power>
+              <pneumatic_airflow mapType="vector">0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0</pneumatic_airflow>
+            </power>
+          </PneumaticSystem>
+          <HydraulicSystem>
+            <mass>0.000000</mass>
+            <power>
+              <hydraulic_power mapType="vector">0</hydraulic_power>
+            </power>
+          </HydraulicSystem>
+          <ElectricSystem>
+            <mass>786.166310</mass>
+            <power>
+              <electric_power mapType="vector">43312.7;29447.1;67953.2;65700.1;64834;64901.6;66809.7;64982.3;126496;157973;126521;90154.2;106784;106784;84636.1;86707.2;41354;41859.5;29999.4;128535</electric_power>
+            </power>
+          </ElectricSystem>
+        </Systems>
+      </L1>
+    </ASTRID>
+  </toolspecific>
+</cpacs>

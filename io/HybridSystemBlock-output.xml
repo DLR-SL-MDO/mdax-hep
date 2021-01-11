@@ -1,0 +1,15 @@
+<cpacs>
+  <toolspecific>
+    <HybridTool>
+      <Outputs>
+        <mHybridSystem/>
+        <ICEpower/>
+      </Outputs>
+    </HybridTool>
+    <SimplifiedEngineModel>
+      <Outputs>
+        <SFCnew mapType="vector"/>
+      </Outputs>
+    </SimplifiedEngineModel>
+  </toolspecific>
+</cpacs>

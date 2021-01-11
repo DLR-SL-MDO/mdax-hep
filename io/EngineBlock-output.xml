@@ -1,0 +1,19 @@
+<cpacs>
+  <toolspecific>
+    <SimplifiedEngineModel>
+      <Outputs>
+        <SFCnew mapType="vector"/>
+        <EngineDryMass/>
+      </Outputs>
+    </SimplifiedEngineModel>
+  </toolspecific>
+  <vehicles>
+    <engines>
+      <engine uID="engine">
+        <geometry>
+          <diameter/>
+        </geometry>
+      </engine>
+    </engines>
+  </vehicles>
+</cpacs>
