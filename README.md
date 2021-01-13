@@ -14,5 +14,7 @@ the [docs](./doc/rce-tool-integration.pdf).
 
 To get an impression of the tools a generated workflow, see [examples](./example/html).
 
+For comments or feedback contact us at [andreas.pagerisueno@dlr.de](mailto:andreas.pagerisueno@dlr.de).
+
 ![HEP Workflow](./static/xdsm_mdax_hep.svg "Hybrid-Electric Propulsion Workflow Example")
 
