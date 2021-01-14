@@ -6,7 +6,7 @@ Anaconda is the recommended environment manager to run the tools in this reposit
 
 To install all required packages into your Anaconda environment, change into the repo folder and type the following:
 ```
-conda env create --file environment.yml
+conda env create --file environment.yaml
 ```
 
 Once you set up your Python environment, you can integrate the tools in RCE. Follow the descriptions in 
