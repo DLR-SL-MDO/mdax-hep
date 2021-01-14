@@ -14,9 +14,11 @@ INFILE = './ToolInput/toolInput.xml'
 tixi_h = tixiwrapper.Tixi()
 tixi_h.open(INFILE)
 
-print(sys.argv[1])
-Perc_Hyb = float(sys.argv[1])                    # [-] Degree of hybridization (0: conventional; 1: full electric) TODO this should be in toolspecific
-
+try:
+    Perc_Hyb = float(sys.argv[1])                    # [-] Degree of hybridization (0: conventional; 1: full electric)
+except IndexError:
+    Perc_Hyb = 0.3
+print("Degree of Hybridization: {}%".format(Perc_Hyb*100))
 
 # Selected Mission Segments
 path = '/cpacs/toolspecific/SimplifiedMissionModel/Inputs/MainPhasesDuration'
